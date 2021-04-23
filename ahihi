@@ -1,0 +1,5 @@
+data = pd.read_csv(file,chunksize=1000,size,skipinitialspace=None,usecols=None, index_col=None)
+pd.set_option('display.expand_frame_repr',False)
+pd.options.display.max_columns = None
+data = pd.concat(data)
+print(data)
